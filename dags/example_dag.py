@@ -13,7 +13,7 @@ default_args = {
 }
 
 dag = DAG(
-    'kubernetes_pod_operator_example',
+    'k8s_pod_operator_example',
     default_args=default_args,
     description='A simple DAG to demonstrate KubernetesPodOperator',
     schedule_interval=timedelta(days=1),
